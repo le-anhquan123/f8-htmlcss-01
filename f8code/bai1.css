@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+
+}
+#header{
+    width: 100%;
+    height: 50px;
+    /* background-color: #ccc; */
+}
+#header .menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+} 
+.menu .menu-logo{
+    margin-left: 10px;
+}
+.menu .menu-logo h2{
+    
+
+}
+.menu .menu-logo h2::after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    bottom:0;
+    background-color: #FFB900;
+    border-radius: 50%;
+    margin-left: 2px;
+
+  
+}
+.menu .menu-text {
+    display: flex;
+    flex-direction: row;
+}
+.menu .menu-text p{
+    padding: 10px;
+    color: #ccc;
+    
+}
+.menu .menu-text p a{
+    text-decoration: none;
+}
+.menu .menu-text p a:first-child {
+    color: black;
+    
+}
+.menu .menu-text p a:first-child:before{
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    right: -20px;
+}
+.menu .menu-signup{
+    width: 144px;
+    height: 40px;
+    background-color: black;
+    margin-right: 10px;
+    border-radius: 999px;
+    text-align: center;
+    margin-top: -5px;
+}
+.menu .menu-signup p{
+    margin-top: 10px;
+    
+}
+.menu .menu-signup a{
+    text-decoration: none;
+    color: white;
+  
+}
+/* phần content */
+
+#content {
+   margin-top: 20px;
+   display: flex;
+}
+
+.content-text{
+    margin: 0 auto;
+    width: 470px;
+    height: 558px;
+    top: -236px;
+    left: 114px;
+    border-radius: 32px;
+    margin-top: 30px;
+
+}
+.content-text h2 {
+    /* font-family: Sen; */
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #171100;
+
+}
+.content-text p {
+    /* font-family: Poppins; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5F5B53;
+}
+.content-text .text-first {
+    margin-top: 20px;
+}
+.content-text .text-first button {
+    width: 180px;
+    height: 64px;
+    top: 118px;
+    left: 114px;
+    border-radius: 32px;
+    background-color: #FFB900;
+    cursor: pointer;
+    border: none;
+   
+}
+.content-text .text-first button  a{
+    
+    text-decoration: none;
+    color: #fff;
+    
+}
+.content-text .text-first i{
+
+    width: 202px;
+    height: 40px;
+    top: 130px;
+    left: 322px;
+    margin-left: 50px;
+    /* font-family: Poppins; */
+font-size: 18px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.content-text .text-first i a{
+    text-decoration: none;
+    color: #171100;
+}
+
+.content-text .text-second{
+    margin-top: 30px;
+    display: flex;
+    padding: 5px;
+}
+.content-text .text-second p {
+    margin-right: 10px;
+    /* font-family: Sen; */
+    
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5F5B53;
+
+}
+.content-text .text-second .courses{
+    margin-top: 5px;
+}
+.content-text .text-second p:nth-child(1){
+    color: #171100;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.content-text .text-second p:nth-child(3){
+    color: #171100;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.content-text .text-three{
+    margin-top: 20px;
+}
+.content-img{
+    width: 570px;
+    height: 685px;
+    background-color: rgb(245, 244, 234);
+    /* top: -300px;
+    left: -586px; */
+
+     border-radius: 20px;
+    margin-left: 30px;
+}
+.content-img .img-first{
+    
+    position: relative;
+   
+}
+.content-img .img-first img{
+    width: 470px;
+    height: 685px;
+    top: -300px;
+    left: -586px;
+    border-radius: 20px;
+}
+.content-img .card-first{
+    
+    background-color: rgb(245, 244, 244);
+    position: absolute;
+    bottom: -30px;
+    left: 350px;
+    width: 270px;
+    height: 244px;
+    border-radius: 12px;
+  
+}
+.content-img .card-first p{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+}
+.content-img .card-first  .p-courses{
+    color: rgb(173, 169, 169);
+}
+.content-img .card-first  .p-text{
+    font-size: 18px;
+    color: #000;
+}
